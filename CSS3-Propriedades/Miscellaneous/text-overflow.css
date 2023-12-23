@@ -1,0 +1,20 @@
+/* text-overflow.css */
+
+/*
+  Dica para text-overflow.css:
+  Use 'text-overflow: ellipsis' para indicar que o texto está sendo truncado e
+  adicione 'white-space: nowrap' e 'overflow: hidden' para garantir que o texto
+  não quebre nem se sobreponha ao contêiner.
+
+  Macete:
+  Essa técnica é útil para exibir informações em espaços limitados, como
+  títulos de notícias ou descrições de produtos.
+*/
+
+div {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 200px;
+  }
+  

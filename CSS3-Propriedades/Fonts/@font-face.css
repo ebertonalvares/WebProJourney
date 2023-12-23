@@ -1,0 +1,21 @@
+/* @font-face.css */
+
+/*
+  Dica para @font-face.css:
+  A regra @font-face permite a incorporação de fontes personalizadas. Certifique-
+  -se de ter as versões corretas dos arquivos de fonte (woff, woff2, etc.).
+
+  Macete:
+  Certifique-se de incluir permissões de licença adequadas ao usar fontes
+  personalizadas para garantir conformidade com os direitos autorais.
+*/
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('custom-font.woff2') format('woff2');
+  }
+  
+  body {
+    font-family: 'CustomFont', sans-serif;
+  }
+  

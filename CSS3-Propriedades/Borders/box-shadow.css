@@ -1,0 +1,17 @@
+/* box-shadow.css */
+
+/*
+  Dica para box-shadow.css:
+  A propriedade 'box-shadow' adiciona uma sombra a um elemento. Os valores são,
+  respectivamente, deslocamento horizontal, deslocamento vertical, desfoque,
+  propagação e cor da sombra.
+
+  Macete:
+  Experimente valores negativos para deslocamento horizontal/vertical para mover
+  a sombra para a esquerda ou para cima, criando efeitos interessantes.
+*/
+
+div {
+    box-shadow: 5px 5px 10px #888888;
+  }
+  

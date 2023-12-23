@@ -1,0 +1,21 @@
+/* flexbox.css */
+
+/*
+  Dica para flexbox.css:
+  O modelo de layout Flexbox é poderoso para alinhar e distribuir itens em um
+  contêiner. As propriedades 'display: flex' e 'flex' são fundamentais.
+
+  Macete:
+  Utilize 'justify-content' e 'align-items' para controlar o alinhamento
+  horizontal e vertical dos itens no contêiner flexível.
+*/
+
+.container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .item {
+    flex: 1;
+  }
+  

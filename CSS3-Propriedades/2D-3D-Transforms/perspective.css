@@ -1,0 +1,18 @@
+/* perspective.css */
+
+/*
+  Dica para perspective.css:
+  A propriedade 'perspective' define a distância entre o observador e o objeto 3D,
+  afetando a intensidade do efeito de profundidade. Valores menores criam um efeito
+  mais pronunciado.
+
+  Macete:
+  Experimente valores entre 200px e 1000px para encontrar o equilíbrio certo
+  para o seu design. Um valor muito alto pode resultar em um efeito sutil,
+  enquanto um valor muito baixo pode tornar a transformação muito intensa.
+*/
+
+div {
+    transform: perspective(400px) rotateY(45deg);
+  }
+  

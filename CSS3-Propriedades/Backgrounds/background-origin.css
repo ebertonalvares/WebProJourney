@@ -1,0 +1,18 @@
+/* background-origin.css */
+
+/*
+  Dica para background-origin.css:
+  A propriedade 'background-origin' especifica a origem da imagem de fundo em
+  relação à caixa de conteúdo. Usar 'content-box' significa que a imagem é
+  posicionada em relação à borda interna da caixa de conteúdo.
+
+  Macete:
+  Experimente diferentes valores, como 'padding-box' e 'border-box', para alterar
+  a origem da imagem e observe como ela se comporta em relação ao conteúdo e à borda.
+*/
+
+div {
+    background-image: url('background.jpg');
+    background-origin: content-box;
+  }
+  

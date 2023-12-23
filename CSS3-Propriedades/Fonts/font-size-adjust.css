@@ -1,0 +1,18 @@
+/* font-size-adjust.css */
+
+/*
+  Dica para font-size-adjust.css:
+  A propriedade 'font-size-adjust' ajusta o tamanho da fonte para manter a altura
+  do caractere (x-height) constante, mesmo se a fonte principal não estiver
+  disponível.
+
+  Macete:
+  Use 'font-size-adjust' para manter uma consistência visual entre diferentes
+  fontes, especialmente ao incorporar fontes externas.
+*/
+
+p {
+    font-size: 20px;
+    font-size-adjust: 0.5; /* Ajuste para manter x-height */
+  }
+  

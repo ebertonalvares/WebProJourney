@@ -1,0 +1,18 @@
+/* border-radius.css */
+
+/*
+  Dica para border-radius.css:
+  A propriedade 'border-radius' suaviza os cantos de um elemento. Usar um valor
+  igual ou superior à metade da largura/altura do elemento geralmente resulta em
+  cantos arredondados.
+
+  Macete:
+  Combine 'border-radius' com valores diferentes para cada canto (por exemplo,
+  'border-top-left-radius') para criar cantos arredondados assimétricos.
+*/
+
+div {
+    border: 2px solid #333;
+    border-radius: 10px;
+  }
+  
