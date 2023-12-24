@@ -17,3 +17,84 @@ var identico = 5 === "5";  // identico: false
 var e = true && false;  // e: false
 var ou = true || false;  // ou: true
 var nao = !true;  // nao: false
+
+
+//Operadores Aritméticos:
+
+let a = 5;
+let b = 3;
+
+// Adição
+let soma = a + b;
+console.log('Adição:', soma);
+
+// Subtração
+let subtracao = a - b;
+console.log('Subtração:', subtracao);
+
+// Multiplicação
+let multiplicacao = a * b;
+console.log('Multiplicação:', multiplicacao);
+
+// Divisão
+let divisao = a / b;
+console.log('Divisão:', divisao);
+
+// Resto da divisão (módulo)
+let restoDivisao = a % b;
+console.log('Resto da Divisão:', restoDivisao);
+
+
+//Operadores de Atribuição:
+
+let x = 10;
+
+// Atribuição simples
+let y = x;
+console.log('y:', y);
+
+// Atribuição com adição
+x += 5; // Equivalente a x = x + 5;
+console.log('x após adição:', x);
+
+// Atribuição com multiplicação
+x *= 2; // Equivalente a x = x * 2;
+console.log('x após multiplicação:', x);
+
+
+//Operadores de Comparação:
+
+let c = 7;
+let d = 7;
+
+// Igualdade
+console.log('c é igual a d:', c === d);
+
+// Desigualdade
+console.log('c é diferente de d:', c !== d);
+
+// Maior que
+console.log('c é maior que d:', c > d);
+
+// Menor que ou igual a
+console.log('c é menor ou igual a d:', c <= d);
+
+
+//Operadores Lógicos:
+
+let e = true;
+let f = false;
+
+// AND lógico
+let resultadoAnd = e && f;
+console.log('AND lógico:', resultadoAnd);
+
+// OR lógico
+let resultadoOr = e || f;
+console.log('OR lógico:', resultadoOr);
+
+// NOT lógico
+let resultadoNot = !e;
+console.log('NOT lógico:', resultadoNot);
+
+

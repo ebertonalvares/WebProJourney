@@ -1,0 +1,61 @@
+No HTML5, várias tags são utilizadas para formatar e apresentar o texto. A seguir, estão apresentadas as tags mais comuns:
+
+<h1> a <h6>: Representam títulos de seções, com <h1> sendo o maior e <h6> o menor.
+
+<p>: Representa um parágrafo.
+
+<a>: Representa um hiperlink.
+
+<strong> e <em>: Representam ênfase e destaque no texto, respectivamente.
+
+<blockquote>: Representa uma citação de outra fonte.
+
+<q>: Representa uma citação curta de outra fonte.
+
+<pre>: Representa um bloco de texto pré-formatado.
+
+<code>: Representa um trecho de código dentro de um parágrafo.
+
+<sup> e <sub>: Representam superíndice e subsuperíndice, respectivamente.
+
+<br>: Representa uma quebra de linha.
+
+<wbr>: Representa uma quebra opcional de linha.
+
+<del> e <ins>: Representam texto deletado e inserido, respectivamente.
+
+<mark>: Representa um trecho de texto destacado para atenção.
+
+<strike>: Representa um trecho de texto riscado.
+
+<abbr>: Representa uma abreviação ou sigla.
+
+<cite>: Representa uma citação de uma obra, como um livro ou filme.
+
+<dfn>: Representa uma definição.
+
+<kbd>: Representa um trecho de texto que deve ser digitado por um usuário.
+
+<samp>: Representa um trecho de texto que é a saída de um programa de computador.
+
+<var>: Representa uma variável em um contexto de matemática ou lógica.
+
+<pre>: Representa um bloco de texto pré-formatado.
+
+<address>: Representa informações de contato do autor/proprietário da página ou do documento.
+
+<bdo>: Representa a direção do texto, independentemente da direção do idioma.
+
+<kbd>: Representa um trecho de texto que deve ser digitado por um usuário.
+
+<noscript>: Representa um trecho de texto alternativo quando o script do navegador estiver desativado.
+
+<bdi>: Representa uma sequência de texto que deve ser formatada independentemente da direção do idioma.
+
+<bdi>: Representa uma sequência de texto que deve ser formatada independentemente da direção do idioma.
+
+<data>: Representa uma par chave-valor personalizada.
+
+<time>: Representa uma hora, data ou período de tempo.
+
+<span>: Representa um trecho de texto genérico dentro de um documento.

@@ -13,3 +13,24 @@ switch (fruta) {
     default:
         console.log("Eu não sou uma banana nem uma maçã.");
 }
+
+
+//Exemplo com switch-case:
+
+
+let diaSemana = 'Segunda';
+
+// Utiliza o switch para verificar o dia da semana
+switch (diaSemana) {
+  case 'Segunda':
+    console.log('É o primeiro dia útil da semana.');
+    break;
+  case 'Quarta':
+    console.log('Estamos no meio da semana.');
+    break;
+  case 'Sexta':
+    console.log('Chegou o final de semana!');
+    break;
+  default:
+    console.log('Outro dia da semana.');
+}

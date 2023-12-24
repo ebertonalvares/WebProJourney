@@ -14,3 +14,41 @@ else if (numero < 0) {
 else {
     console.log("O número é zero.");
 }
+
+
+//Exemplo básico com if:
+
+let idade = 18;
+
+// Verifica se a idade é maior ou igual a 18
+if (idade >= 18) {
+  console.log('Você é maior de idade.');
+} else {
+  console.log('Você é menor de idade.');
+}
+
+
+//Exemplo com if, else if e else:
+
+
+let nota = 85;
+
+// Verifica a nota em diferentes faixas
+if (nota >= 90) {
+  console.log('Nota A');
+} else if (nota >= 80) {
+  console.log('Nota B');
+} else if (nota >= 70) {
+  console.log('Nota C');
+} else {
+  console.log('Nota D');
+}
+
+
+//Exemplo com operador ternário:
+
+
+let temperatura = 25;
+// Usa o operador ternário para determinar o valor de 'clima'
+let clima = (temperatura > 30) ? 'Quente' : 'Frio';
+console.log('O clima é:', clima);
