@@ -88,22 +88,13 @@ let f = false;
 // AND lógico
 let resultadoAnd = e && f;
 console.log('AND lógico:', resultadoAnd);
-// Nesta parte do código, e e f são variáveis (presumivelmente booleanas)
-// e o operador && realiza a operação lógica "AND" entre essas variáveis.
-// O resultado será true apenas se ambas as variáveis forem true. 
-// O resultado é então impresso no console.
 
 // OR lógico
 let resultadoOr = e || f;
 console.log('OR lógico:', resultadoOr);
-// Aqui, o operador || realiza a operação lógica "OR" entre as variáveis e e f.
-// O resultado será true se pelo menos uma das variáveis for true.
-// O resultado é impresso no console.
 
 // NOT lógico
 let resultadoNot = !e;
 console.log('NOT lógico:', resultadoNot);
-// O operador ! realiza a operação lógica "NOT" em e.
-// Ou seja, se e for true, resultadoNot será false, e vice-versa.
-// O resultado é impresso no console.
+
 

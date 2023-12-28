@@ -1,0 +1,25 @@
+/* animation.css */
+
+/*
+  Dica para animation.css:
+  A regra @keyframes permite definir animações. No exemplo, 'slide' move um
+  elemento de -100% para 0% ao longo de 1 segundo.
+
+  Macete:
+  Experimente adicionar pausas, atrasos e outras propriedades para ajustar a
+  velocidade e o comportamento da animação.
+*/
+
+@keyframes slide {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  div {
+    animation: slide 1s ease-in-out;
+  }
+  

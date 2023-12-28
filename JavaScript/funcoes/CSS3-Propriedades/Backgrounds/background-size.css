@@ -1,0 +1,19 @@
+/* background-size.css */
+
+/*
+  Dica para background-size.css:
+  A propriedade 'background-size' controla o dimensionamento da imagem de fundo.
+  O valor 'cover' faz com que a imagem cubra completamente o elemento, mantendo
+  sua proporção. Isso é útil para imagens de fundo em seções ou cabeçalhos.
+
+  Macete:
+  Se a imagem de fundo não estiver cobrindo corretamente, experimente ajustar
+  a propriedade 'background-position' ou use 'contain' em vez de 'cover' para
+  garantir que a imagem seja totalmente visível.
+*/
+
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+  }
+  

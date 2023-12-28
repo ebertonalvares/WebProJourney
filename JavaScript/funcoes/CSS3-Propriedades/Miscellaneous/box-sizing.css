@@ -1,0 +1,22 @@
+/* box-sizing.css */
+
+/*
+  Dica para box-sizing.css:
+  A propriedade 'box-sizing: border-box' inclui a borda e o preenchimento no
+  tamanho total do elemento, facilitando o controle das dimensões.
+
+  Macete:
+  Torne 'box-sizing: border-box' padrão em seu projeto para evitar problemas de
+  layout causados por cálculos imprecisos de dimensões.
+*/
+
+* {
+    box-sizing: border-box;
+  }
+  
+  div {
+    width: 50%;
+    padding: 20px;
+    border: 2px solid #333;
+  }
+  

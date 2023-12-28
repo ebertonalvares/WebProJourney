@@ -1,0 +1,24 @@
+/* grid.css */
+
+/*
+  Dica para grid.css:
+  O sistema de layout CSS Grid permite criar layouts bidimensionais com colunas e
+  linhas. Use 'display: grid' e defina o layout com 'grid-template-columns' e
+  'grid-template-rows'.
+
+  Macete:
+  Experimente a propriedade 'grid-gap' para adicionar espaçamento entre as
+  colunas e linhas, facilitando a criação de layouts visualmente agradáveis.
+*/
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .item {
+    background-color: #3498db;
+    padding: 20px;
+  }
+  

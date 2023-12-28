@@ -1,0 +1,20 @@
+/* transition.css */
+
+/*
+  Dica para transition.css:
+  A propriedade 'transition' permite suavizar a transição entre estados de um
+  elemento. Neste exemplo, mudamos a cor de fundo suavemente ao passar o mouse.
+
+  Macete:
+  Experimente diferentes funções de temporização, como 'ease-in', 'ease-out',
+  'ease-in-out', ou até mesmo crie sua função de temporização personalizada.
+*/
+
+button {
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #3498db;
+  }
+  

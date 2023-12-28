@@ -1,0 +1,17 @@
+/* transform.css */
+
+/*
+  Dica para transform.css:
+  A propriedade 'transform' permite aplicar transformações 2D e 3D a um elemento.
+  No exemplo, usamos 'rotate' para girar o elemento em 45 graus e 'scale' para
+  aumentar o tamanho em 1.5 vezes.
+
+  Macete:
+  Combine várias transformações para obter efeitos mais complexos. Experimente
+  translate, skew e outras funções para criar animações e layouts interessantes.
+*/
+
+div {
+    transform: rotate(45deg) scale(1.5);
+  }
+  
